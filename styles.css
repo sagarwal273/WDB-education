@@ -1,0 +1,179 @@
+/* Ignore following classes */
+
+* {
+    font-family: "Copperplate", fantasy;
+    background-color: #fffdee;
+  }
+  
+  #intro {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 50px;
+  }
+
+ .flag_eagle{
+   width: 90%;
+   height: 45%;
+   position: relative;
+   z-index: 2;
+   left: 5%;
+   top: 25%;
+
+   background-color: white;
+ }
+
+
+
+  .insideborder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .para {
+    font-weight: 300;
+    margin-left: 10px;
+  }
+  
+  h2 {
+    font-size: medium;
+    font-weight: 200;
+  }
+  
+  /* Classes that you might find useful */
+  /* Note* These classes do not cover every possibloe case to build you flags, you will have to continue to add your own*/
+  
+  .flag {
+    height: 300px;
+    width: 500px;
+    border-style: solid;
+    margin-bottom: 5rem;
+  }
+  
+  .horiz {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .twovert {
+    height: 50%;
+  }
+  
+  .threevert {
+    height: 33.3%;
+  }
+  
+  .threehoriz {
+    width: 33.3%;
+  }
+  
+  .skinny {
+    height: 17.5%;
+  }
+  
+  .fat {
+    height: 30%;
+  }
+  
+  .circle {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 85px;
+    top: 50px;
+  }
+
+  .flex-container{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+  }
+ 
+  .flex-container .bl{
+    display: flex;
+    height: 11.1%; 
+    background-color: blue;
+  }
+ 
+  .flex-container .wh{
+    display: flex;
+    height: 11.1%;
+    background-color: white;
+  }
+
+  .blR{
+    display: flex;
+    height: 11.1%;
+    width: 285px;
+    background-color: blue;
+    align-self: flex-end;
+  }
+
+  .whR{
+    display: flex;
+    height: 11.1%;
+    width: 285px;
+    background-color: white;
+    align-self: flex-end;
+  }
+
+  .upper-box{
+    order:1;
+    width: 170px;
+    height: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: rows;
+    background-color: white;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  .blSq{
+    display: flex;
+    order: 1;
+    height: 66px;
+    width: 66px;
+    background-color: blue;
+    justify-content: flex-start;
+  }
+  
+  
+  
+  /* Colors/ Feel free to add your own! */
+  
+  .red {
+    background-color: rgb(179, 6, 6);
+  }
+  
+  .orange {
+    background-color: orange;
+  }
+  
+  .yellow {
+    background-color: rgb(255, 230, 0);
+  }
+  
+  .green {
+    background-color: rgb(2, 114, 2);
+  }
+  
+  .blue {
+    background-color: rgb(3, 3, 173);
+  }
+  
+  .lightblue {
+    background-color: lightblue;
+  }
+  
+  .purple {
+    background-color: purple;
+  }
+  
+  .white {
+    background-color: #fff;
+  }
